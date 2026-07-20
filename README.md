@@ -1,4 +1,4 @@
-# CS50x Project 5 - Final Project
+# CS50x Project - Final Project
 
 ## 📖 Distinctiveness and Complexity
 **Enigma** stands out as a unique project due to its focus on privacy-first note sharing, built entirely with modern web technologies such as **Cloudflare Workers**, **GraphQL**, and **JWT-based encryption**. Unlike typical note-sharing applications, **Enigma** introduces advanced features that let users limit how many times a note can be viewed (1–5 times) and optionally protect it with a password. Users can also supply their email to receive a notification once the note self-destructs.
@@ -21,8 +21,8 @@ The project structure is based on Next.js application with Cloudflare integratio
 
 ```
   cs50-final-project/
-  ├── .eslintrc.json
   ├── .gitignore
+  ├── eslint.config.mjs
   ├── jsconfig.json
   ├── LICENSE
   ├── next.config.mjs
@@ -121,7 +121,7 @@ The project structure is based on Next.js application with Cloudflare integratio
   - Click **Create note** button
 
 2. **Receive a Link**
-  - After creation, you’ll get a link like: `https://enigma.wgwcompany.workers.dev/notate?=eyJhbGciOi...`
+  - After creation, you’ll get a link like: `https://enigma.realnormanik.workers.dev/notate?=eyJhbGciOi...`
   - Accessing a Note
   - Open the link
   - If password-protected, enter the password
@@ -153,15 +153,14 @@ The project structure is based on Next.js application with Cloudflare integratio
 To run the application, make sure you have the following dependencies installed:
   ```json
   {
-    "next": "15.3.3",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-lottie": "^1.2.10",
-    "@opennextjs/cloudflare": "^1.5.1",
+    "next": "16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "@opennextjs/cloudflare": "^1.20.1",
     "@as-integrations/cloudflare-workers": "^1.1.1",
-    "@apollo/client": "^3.13.8",
-    "@apollo/server": "^4.12.2",
-    "graphql": "^16.11.0"
+    "@apollo/client": "^4.2.7",
+    "@apollo/server": "^5.5.1",
+    "graphql": "^17.0.2"
   }
   ```
 
@@ -248,7 +247,7 @@ Below are the core GraphQL operations used in the Enigma app to manage encrypted
 ## 🎥 Demo
 
 You can view a working version of the project here:
-👉 https://enigma.wgwcompany.workers.dev/
+👉 https://enigma.realnormanik.workers.dev/
 
 Video walkthrough of the specification:
 🎥 https://youtu.be/jDPhSrNDSfg

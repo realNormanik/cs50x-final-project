@@ -1,0 +1,7 @@
+allowBuilds:
+  '@apollo/protobufjs': set this to true or false
+  '@swc/core': false
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true

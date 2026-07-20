@@ -25,8 +25,8 @@
 	"d1_databases": [
         {
             "binding": "D1",
-            "database_name": "cs50",
-            "database_id": "e7af7a4f-4f32-4aaa-9fe3-33db3653c0b7"
+            "database_name": "courses",
+            "database_id": "6d269ac6-c52c-497b-ae1b-fed521130583"
         }
     ],
     "vars": {
@@ -37,7 +37,7 @@
 	    "SECRET_KEY": "0x4AAAAAAA8Cypo9aDiDt4r2F23lLNjpoZs",
 	    "NEXT_PUBLIC_SITE_KEY": "0x4AAAAAAA8CytbRsD_4tmim",
 	    "NEXT_PUBLIC_JWT_SECRET": "0joBg09Ui2ykIacUW1iB8fi8kQRS3NQR",
-	    "NODE_VERSION": "24.1.0",
-        "PNPM_VERSION": "10.13.1"
+	    "NODE_VERSION": "24.18.0",
+        "PNPM_VERSION": "11.15.1"
 	}
 }
