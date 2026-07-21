@@ -1,5 +1,5 @@
 allowBuilds:
-  '@apollo/protobufjs': set this to true or false
+  '@apollo/protobufjs': false
   '@swc/core': false
   esbuild: true
   sharp: true
